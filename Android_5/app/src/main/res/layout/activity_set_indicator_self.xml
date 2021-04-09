@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".pages.SetIndicatorSelf">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="30sp"
+        android:text="最后，请对轮播的细节进行设置">
+    </TextView>
+
+    <com.example.android_5.controls.SetIndicatorSelfControls
+        android:id="@+id/ctrl_setIndicatorSelfControls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+    </com.example.android_5.controls.SetIndicatorSelfControls>
+
+
+
+</LinearLayout>
